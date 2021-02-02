@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Results</title>
+    <link rel="stylesheet" type="text/css" href="CSS/home_style.css">
+  </head>
+  <body>
+    <div class="grid_div">
+      <div class="question_div">
+        <h1>RESULTS!!!</h1>
+      </div><!--question_div close-->
+      <div class="option_div">
+        <div class="above_two_option_div">
+          <div class="optionA_div">
+            <h2 id="user1_name"></h2>
+          </div><!--optionA_div close-->
+          <div class="optionB_div">
+            <h2 id="user1_t1"></h2>
+          </div><!--optionB_div close-->
+        </div><!--above_two_option_div close-->
+        <div class="below_two_option_div">
+          <div class="optionC_div">
+            <h2 id="user2_name"></h2>
+          </div><!--optionC_div close-->
+          <div class="optionD_div">
+            <h2 id="user2_t2"></h2>
+          </div><!--optionD_div close-->
+        </div><!--below_two_option_div close-->
+      </div><!--option_div close-->
+      <div class="option_div">
+        <div class="above_two_option_div">
+          <div class="optionA_div">
+            <h2 id="user3_name"></h2>
+          </div><!--optionA_div close-->
+          <div class="optionB_div">
+            <h2 id="user3_t3"></h2>
+          </div><!--optionB_div close-->
+        </div><!--above_two_option_div close-->
+        <div class="below_two_option_div">
+          <div class="optionC_div">
+            <h2 id="user4_name"></h2>
+          </div><!--optionC_div close-->
+          <div class="optionD_div">
+            <h2 id="user4_t4"></h2>
+          </div><!--optionD_div close-->
+        </div><!--below_two_option_div close-->
+      </div><!--option_div close-->
+      <div class="option_div">
+        <div class="above_two_option_div">
+          <div class="optionA_div">
+            <h2 id="user5_name"></h2>
+          </div><!--optionA_div close-->
+          <div class="optionB_div">
+            <h2 id="user5_t5"></h2>
+          </div><!--optionB_div close-->
+        </div><!--above_two_option_div close-->
+        <div class="below_two_option_div">
+          <div class="optionC_div">
+            <h2 id="user6_name"></h2>
+          </div><!--optionC_div close-->
+          <div class="optionD_div">
+            <h2 id="user6_t6"></h2>
+          </div><!--optionD_div close-->
+        </div><!--below_two_option_div close-->
+      </div><!--option_div close-->
+    </div><!--grid div close-->
+
+    <script type="text/javascript" src="JS/quiz.js"> </script>
+    <script type="text/javascript" src="JS/question.js"> </script>
+    <script type="text/javascript" src="JS/home_quiz.js"></script>
+    <script type="text/javascript" src="JS/results.js"></script>
+    <script type="text/javascript">
+      setInterval(function(){
+        //alert("Hello");
+        location.replace("congratulations.html");
+      }, 5000);//after 5 seconds,redirect to new page
+    </script>
+  </body>
+</html>

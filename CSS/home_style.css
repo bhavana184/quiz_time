@@ -1,0 +1,376 @@
+/*home.html css*/ /*same css used in results.html*/
+body {
+/*background-color: #eeeeee;*/
+background: url('../images/violet bg.jpeg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+.grid_div{
+width:50%;
+height:500px;
+margin: 0 auto;
+margin-top: 3%;
+margin-bottom: 2%;
+background-color: #fff;
+padding: 10px 50px 50px 50px;
+border-radius: 50px;
+border: 2px solid #cbcbcb;
+/*box-shadow: 7px 8px 5px #cbcbcb;*/
+box-shadow:0 0 10px 2px #cbcbcb;
+}
+.score_timer_div{
+  width:100%;
+  height:100px;
+  /*border-style: solid;
+  border-color: blue;*/
+}
+.score_div{
+  width:40%;
+  height:80px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  /*border-style: solid;
+  border-color: green;*/
+  float: left;
+}
+.score_div img{
+  float: left;
+  width: 40%;
+  height:80px;
+  margin-left: 10%;
+}
+.timer_div{
+  width:40%;
+  height:80px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 1%;
+  /*border-style: solid;
+  border-color: red;*/
+  float: right;
+}
+.timer_div img{
+  float: right;
+  width: 60%;
+  height:80px;
+}
+.question_div{
+  width:80%;
+  height:70px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  /*border-style: solid;
+  border-color: red;*/
+}
+.question_div h1{
+  font-family: "sans-serif";
+  background-color: #2c0747;
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+  padding: 2px 0px;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  border-radius: 50px;
+}
+.option_div{
+  width:100%;
+  height:140px;
+  /*margin-left: 10%;
+  margin-right: 10%;*/
+  margin-top: 1%;
+  margin-bottom: 1%;
+  /*border-style: solid;
+  border-color: red;*/
+}
+.above_two_option_div,.below_two_option_div{
+  width:97%;
+  height:55px;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  /*border-style: solid;
+  border-color: yellow;*/
+}
+.optionA_div,.optionC_div{
+  width:40%;
+  height:40px;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  /*border-style: solid;
+  border-color: blue;*/
+  float:left;
+}
+.optionB_div,.optionD_div{
+  width:40%;
+  height:40px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 1%;
+  /*border-style: solid;
+  border-color: blue;*/
+  float:right;
+}
+/*.optionB_div h1,.optionC_div h1,.optionD_div h1{
+  font-family: "sans-serif";
+  background-color: #2c0747;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -5px;
+  border-radius: 30px;
+}*/
+.optionA_div h1,.optionB_div h1,.optionC_div h1,.optionD_div h1{
+  font-family: "sans-serif";
+  font-size: 40px;
+  margin-top: -5px;
+}
+/*results.html css*/
+.optionA_div h2,.optionB_div h2,.optionC_div h2,.optionD_div h2{
+  font-family: "sans-serif";
+  font-size: 40px;
+  margin-top: -5px;
+  color:  #2c0747;
+}
+#bt0, #bt1, #bt2, #bt3{
+  background-color: #2c0747;
+  width: 100%;
+  height: 120%;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -2px;
+  border-radius: 30px;
+  border-color: #2c0747;
+}
+#bt0:hover, #bt1:hover, #bt2:hover, #bt3:hover {
+cursor: pointer;
+background-color: green;
+}
+
+#bt0: focus, #bt1: focus, #bt2: focus, #bt3: focus {
+outline: 0;
+}
+/*
+#bt0, #bt1, #bt2, #bt3 {
+background-color: #510b84;
+width: 250px;
+font-size: 20px;
+color: #fff;
+border: 1px solid #1D3C6A;
+border-radius: 50px;
+margin: 10px 40px 10px 0px;
+padding: 10px 10px;
+text-align: center;
+}*/
+.question_progress_div{
+  width:97%;
+  height:20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 1%;
+  margin-left: 1%;
+  /*border-style: solid;
+  border-color: green;*/
+}
+#progress{
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  font-family: "sans-serif";
+  font-weight: bolder;
+  color: #2c0747;
+  text-align: center;
+}
+.users_pic_div{
+  width:100%;
+  height:80px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 1%;
+  /*border-style: solid;
+  border-color: blue;*/
+}
+.user1_pic_div,.user2_pic_div,.user3_pic_div,.user4_pic_div,.user5_pic_div,.user6_pic_div{
+  width:10%;
+  height:60px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 2%;
+  margin-left: 3%;/*3%*/
+  /*border-style: solid;
+  border-color: yellow;*/
+  display: inline-grid;
+}
+.user1_pic_div img,.user2_pic_div img,.user3_pic_div img,.user4_pic_div img,.user5_pic_div img,.user6_pic_div img{
+  width: 90%;
+  height: 60px;
+}
+.users_name_div{
+  width:100%;
+  height:60px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 1%;
+  /*border-style: solid;
+  border-color: green;*/
+}
+.user1_name_div,.user2_name_div,.user3_name_div,.user4_name_div,.user5_name_div,.user6_name_div{
+  width:10%;
+  height:30px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 2%;
+  margin-left: 3%;/*3%*/
+  /*border-style: solid;
+  border-color: yellow;*/
+  display: inline-grid;
+  overflow: hidden;
+}
+.user1_name_div h3,.user2_name_div h3,.user3_name_div h3,.user4_name_div h3,.user5_name_div h3,.user6_name_div h3{
+  /*font-family: "sans-serif";
+  background-color: #2c0747;
+  font-size: 10px;
+  text-align: center;
+  color: #ffffff;
+  padding: 4px 0px;
+  margin-top: -5px;
+  border-radius: 20px;*/
+  font-family: "sans-serif";
+  font-size: 20px;
+  color: #2c0747;
+  text-align: center;
+  margin-top: 3%;
+}
+/*congratulations.html css*/
+.congo_div{
+  width:80%;
+  height:70px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20%;
+  margin-bottom: 1%;
+  /*border-style: solid;
+  border-color: red;*/
+}
+.congo_div h1{
+  font-family: "sans-serif";
+  background-color: #2c0747;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  padding: 2px 0px;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  border-radius: 50px;
+}
+.winner_name_time_div{
+  width:100%;
+  height:140px;
+  /*margin-left: 10%;
+  margin-right: 10%;*/
+  margin-top: 1%;
+  margin-bottom: 1%;
+  /*border-style: solid;
+  border-color: red;*/
+}
+.winner_name_div,.winner_time_div{
+  width:40%;
+  height:40px;
+  margin-left: 30%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 30%;
+  /*border-style: solid;
+  border-color: blue;*/
+  display: inline-block;
+}
+.winner_name_div h1,.winner_time_div h1{
+  font-family: "sans-serif";
+  background-color: #2c0747;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -5px;
+  border-radius: 30px;
+
+}
+/*game_over.html css*/
+.game_over_div{
+  width:80%;
+  height:70px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30%;
+  margin-bottom: 1%;
+  /*border-style: solid;
+  border-color: red;*/
+}
+.game_over_div h1{
+  font-family: "sans-serif";
+  background-color: #2c0747;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  padding: 2px 0px;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  border-radius: 50px;
+}
+.wrong_answer_div{
+  width:50%;
+  height:40px;
+  margin-left: 25%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 30%;
+  /*border-style: solid;
+  border-color: blue;*/
+  display: inline-block;
+}
+.wrong_answer_div h1{
+  font-family: "sans-serif";
+  background-color: #2c0747;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -5px;
+  border-radius: 30px;
+
+}
+/*score and timer text css*/
+.score_h1_div{
+  width:40%;
+  height:70px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 1%;
+  /*border-style: solid;
+  border-color: blue;*/
+  float: right;
+}
+.timer_h1_div{
+  width:50%;
+  height:70px;
+  margin-top: -78px;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  /*border-style: solid;
+  border-color: blue;*/
+  float: left;
+}
+#score_h1 {
+  font-family: "sans-serif";
+  font-size: 30px;
+  color: #2c0747;
+  text-align: center;
+}
+#timer_h1{
+  font-family: "sans-serif";
+  font-size: 30px;
+  color: #2c0747;
+  text-align: center;
+}

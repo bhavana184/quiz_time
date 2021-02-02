@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" type="text/css" href="CSS/home_style.css">
+  </head>
+  <body>
+    <div class="grid_div">
+    <div id="quiz">
+      <div class="score_timer_div">
+        <div class="score_div">
+          <img src="images/score_img.jpeg" alt="score_img">
+          <div class="score_h1_div">
+            <h1 id="score_h1">x / 3</h1>
+          </div>
+            <!--<h1 id="score_h1">x/3</h1>-->
+        </div><!--score_div close-->
+        <div class="timer_div">
+          <img src="images/timer_img.png" alt="timer_img">
+            <div class="timer_h1_div">
+              <h1 id="timer_h1">00 : 15</h1><!--<h1 id="count">15</h1>-->
+            </div>
+            <!--<h1 id="timer_h1">00:00</h1>-->
+        </div><!--timer_div close-->
+      </div><!--score_timer_div close-->
+      <div class="question_div">
+        <h1 id="question_h1"></h1>
+      </div><!--question_div close-->
+      <div class="option_div">
+        <div class="above_two_option_div">
+          <div class="optionA_div">
+            <button id="bt0"><h1 id="choice0"></h1></button>
+          </div><!--optionA_div close-->
+          <div class="optionB_div">
+            <!--<h1>7</h1>-->
+            <button id="bt1"><h1 id="choice1"></h1></button>
+          </div><!--optionB_div close-->
+        </div><!--above_two_option_div close-->
+        <div class="below_two_option_div">
+          <div class="optionC_div">
+            <!--<h1>8000</h1>-->
+            <button id="bt2"><h1 id="choice2"></h1></button>
+          </div><!--optionC_div close-->
+          <div class="optionD_div">
+            <!--<h1>9</h1>-->
+            <button id="bt3"><h1 id="choice3"></h1></button>
+          </div><!--optionD_div close-->
+        </div><!--below_two_option_div close-->
+      </div><!--option_div close-->
+      <div class="question_progress_div">
+        <p id="progress"> Question x of y</p>
+      </div><!--question_progress_div close-->
+      <div class="users_pic_div">
+        <div class="user1_pic_div"><img src="images/user1_img.png" alt="user1"></div><!--user1_pic_div close-->
+        <div class="user2_pic_div"><img src="images/user1_img.png" alt="user2"></div><!--user2_pic_div close-->
+        <div class="user3_pic_div"><img src="images/user1_img.png" alt="user3"></div><!--user3_pic_div close-->
+        <div class="user4_pic_div"><img src="images/user1_img.png" alt="user4"></div><!--user4_pic_div close-->
+        <div class="user5_pic_div"><img src="images/user1_img.png" alt="user5"></div><!--user5_pic_div close-->
+        <div class="user6_pic_div"><img src="images/user1_img.png" alt="user6"></div><!--user6_pic_div close-->
+      </div><!--users_pic_div close-->
+      <div class="users_name_div">
+        <div class="user1_name_div"><h3>User1</h3></div><!--user1_name_div close-->
+        <div class="user2_name_div"><h3>User2</h3></div><!--user2_name_div close-->
+        <div class="user3_name_div"><h3>YOU</h3></div><!--user3_name_div close-->
+        <div class="user4_name_div"><h3>User4</h3></div><!--user4_name_div close-->
+        <div class="user5_name_div"><h3>User5</h3></div><!--user5_name_div close-->
+        <div class="user6_name_div"><h3>User6</h3></div><!--user6_name_div close-->
+      </div><!--users_name_div close-->
+    </div><!--quiz div close-->
+    </div><!--grid div close-->
+
+
+    <script type="text/javascript" src="JS/quiz.js"> </script>
+    <script type="text/javascript" src="JS/question.js"> </script>
+    <script type="text/javascript" src="JS/home_quiz.js"></script>
+    <!--<script type="text/javascript" src="JS/results.js"></script>-->
+  </body>
+</html>
